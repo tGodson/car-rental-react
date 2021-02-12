@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FeatureSection correctly 1`] = `
+<section
+  className="about-section feature-section"
+>
+  <div
+    className="mt-2 row"
+  >
+    <div
+      className="col-sm-6"
+    >
+      <img
+        alt="ride"
+        className="img-fluid"
+        src="feature-ride.png"
+      />
+    </div>
+    <div
+      className="pt-5 col-sm-6"
+    >
+      <h4
+        className="about-section__left-title pt-5"
+      >
+        Best rides for your trips
+      </h4>
+      <p
+        className="about-section__desc"
+      >
+        More than hundreds of rides at your disposal. Only the best and checked with owners. We will find best place for you and conditions for a safe parking.
+      </p>
+      <p>
+        <a
+          className="btn btn-oval"
+          href="#register"
+        >
+          Learn more
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+`;

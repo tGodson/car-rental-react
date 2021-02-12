@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AboutSection correctly 1`] = `
+<section
+  className="about-section"
+>
+  <h4
+    className="about-section__sub"
+  >
+    Simple and fast way to rent
+  </h4>
+  <h2
+    className="about-section__primary pb-4"
+  >
+    Comfortable ride from reliable people
+  </h2>
+  <div
+    className="mt-5 row"
+  >
+    <div
+      className="col-sm-6"
+    >
+      <h4
+        className="about-section__left-title"
+      >
+        Ride Availability is 24/7
+      </h4>
+      <p
+        className="about-section__desc"
+      >
+        You will have the best support to manage and collect every vehicle information about the ride. Full control will save you from any unforeseen situations and save you money and public transport related issues
+      </p>
+      <p>
+        <a
+          className="btn btn-oval"
+          href="#register"
+        >
+          Learn more
+        </a>
+      </p>
+    </div>
+    <div
+      className="col-sm-6"
+    >
+      <img
+        alt="ride"
+        className="img-fluid"
+        src="ride.jpg"
+      />
+    </div>
+  </div>
+</section>
+`;
