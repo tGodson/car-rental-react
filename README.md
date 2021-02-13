@@ -1,6 +1,6 @@
 # CAR RENTALS APP
 
-In this project, I developed a frontend web application, Car Rentals using [Car Rentals API]() - [Repo]() I also develop, a requirement for my final capstone project to consume the data using React Application.
+In this project, I developed a frontend web application, Car Rentals using [Car Rentals API](https://car-rental-rails.herokuapp.com/) - [Repo](https://github.com/tGodson/car-rental-rails) I also develop, a requirement for my final capstone project to consume the data using React Application.
 
 The application features includes:
 - A proper Authentication for Sign in and Sign up
@@ -9,12 +9,10 @@ The application features includes:
 - User can add car to favourites
 - User can access list of cars added as favourites
 
-![screenshot]()
+![screenshot](app_screenshot.png)
 
 ## Live Demo
 [Live Demo]()
-
-## Video Presentation
 
 
 ## Getting Started
@@ -75,7 +73,7 @@ Fire up your app by running `heroku open` Yay!!! your app has been deployed succ
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/tGodson/car-rental-react/issues).
 
 ## Show your support
 
