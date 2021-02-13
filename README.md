@@ -12,7 +12,7 @@ The application features includes:
 ![screenshot](app_screenshot.png)
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://car-rentals-react.herokuapp.com/)
 
 
 ## Getting Started
