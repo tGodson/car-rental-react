@@ -16,7 +16,8 @@ export default function AboutSection() {
           </h4>
           <p className="about-section__desc">
             We are a car rental service available to you 24/7. We provide the most
-            confortable and cheapest rides in the country. Hook us up for your Journeys.
+            confortable and cheapest rides in the country. Hook us up for your trips and
+            get the best confort can offer.
           </p>
           <p>
             <a href="#register" className="btn btn-oval">
