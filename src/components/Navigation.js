@@ -16,7 +16,7 @@ export default function Navigation() {
         <Nav className="mr-auto" />
         <Nav>
           {
-            token === undefined || token === 'undefined'
+            token === undefined || token === 'undefined' || token === null
               ? (
                 <>
                   <Link className="nav-link white" to="/login">SIGN IN</Link>
