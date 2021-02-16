@@ -22,7 +22,7 @@ body {
   background: url("./imgs/head_image.jpg") center no-repeat;
   background-size: cover;
   padding: 30px;
-
+  overflow: hidden;
   &-content {
     width: 215px;
     color: #fff;
