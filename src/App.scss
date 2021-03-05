@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #373737;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1024px !important;
+  padding: 0 !important;
+}
+
+.slack {
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("./imgs/head_image.jpg") center no-repeat;
+  background-size: cover;
+  padding: 30px;
+  overflow: hidden;
+  &-content {
+    width: 215px;
+    color: #fff;
+
+    &__title {
+      font-size: 22px;
+      font-weight: 700;
+      text-shadow: 1px 2px 2px rgba($color: #000, $alpha: 0.6);
+    }
+
+    &__desc {
+      font-weight: 400;
+    }
+  }
+}
+
+.logo {
+  width: 150px;
+}
+
+.about-section {
+  padding: 30px;
+  background-color: #e7e3f0;
+
+  &__sub {
+    text-transform: uppercase;
+    color: #b9b6b6;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  &__primary,
+  &__left-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  &__left-title {
+    text-align: left;
+  }
+
+  &__desc {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b9b6b6;
+  }
+}
+
+.feature-section {
+  background-color: #e8f0ff;
+}
+
+.call-action {
+  height: 150px;
+  background: url("./imgs/call_action.jpg") top center no-repeat;
+  color: #e8f0ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  color: #000;
+  text-align: center;
+  font-size: small;
+}
+
+.btn-oval {
+  border-radius: 20px !important;
+  background-color: #1c4cea !important;
+  border-color: #1c4cea !important;
+  color: #fff !important;
+}
+
+.btn-menu {
+  border-radius: 35px !important;
+  background-color: #fff !important;
+  border-color: #787877 !important;
+  color: #787877 !important;
+  padding: 5px 8px;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.login-box {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.login-box::after {
+  content: "";
+  background: url("./imgs/head_image.jpg") bottom center no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.form-control {
+  border-radius: 20px !important;
+  padding: 5px 10px;
+}
+
+.modal-popup {
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
