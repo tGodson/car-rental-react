@@ -15,9 +15,9 @@ export default function AboutSection() {
             A ride is always available for you 24/7
           </h4>
           <p className="about-section__desc">
-            We are a car rental service available to you 24/7. We provide the most
-            confortable and cheapest rides in the country. Hook us up for your trips and
-            get the best confort can offer.
+            We are a car rental service available to you 24/7. We provide the
+            most confortable and cheapest rides in the country. Hook us up for
+            your trips and get the best confort can offer.
           </p>
           <p>
             <a href="#register" className="btn btn-oval">
@@ -26,7 +26,7 @@ export default function AboutSection() {
           </p>
         </Col>
         <Col sm={6}>
-          <img src={ride} className="img-fluid" alt="ride" />
+          <img src={ride} className="img-fluid about-img" alt="ride" />
         </Col>
       </Row>
     </section>
