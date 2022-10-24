@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
 
 body {
-  font-family: "Lato", sans-serif;
+  // font-family: "Lato", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   color: #373737;
   background-color: #fff;
@@ -24,17 +26,25 @@ body {
   padding: 30px;
   overflow: hidden;
   &-content {
-    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
     color: #fff;
+    padding: 25px;
+    background-color:rgba(0, 0, 0, 0.677);
+    border-radius: 10px;
 
     &__title {
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 600;
       text-shadow: 1px 2px 2px rgba($color: #000, $alpha: 0.6);
+      letter-spacing: 1.5px;
     }
 
     &__desc {
       font-weight: 400;
+      letter-spacing: 1.5px;
     }
   }
 }
@@ -58,7 +68,7 @@ body {
   &__left-title {
     text-align: center;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 600;
   }
 
   &__left-title {
@@ -66,19 +76,36 @@ body {
   }
 
   &__desc {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     color: #b9b6b6;
   }
 }
 
+.about-img{
+  border-radius: 10px;
+}
+
 .feature-section {
   background-color: #e8f0ff;
+  height: 350px;
+  
+}
+
+.feature-section .row{
+  padding-top: 30px;
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .call-action {
-  height: 150px;
-  background: url("./imgs/call_action.jpg") top center no-repeat;
+  height: 250px;
+  background: linear-gradient(to bottom, rgba(18,42, 66, .85), rgba(18,42, 66, .85)), url("./imgs/call_action.jpg") top center no-repeat;
   color: #e8f0ff;
   display: flex;
   flex-direction: column;
@@ -97,6 +124,7 @@ body {
   background-color: #1c4cea !important;
   border-color: #1c4cea !important;
   color: #fff !important;
+  margin-top: 15px;
 }
 
 .btn-menu {
