@@ -12,7 +12,7 @@ export default function Footer() {
         </Link>
       </h2>
       <p>
-        Car Rental Cameroon
+        Car Rental Cameroon - zsoftly test class
         {' '}
         <br />
         +237 672-526-097
